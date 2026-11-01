@@ -1,0 +1,116 @@
+{
+  "fecha_utc": "2026-11-01T04:18:06.811973+00:00",
+  "alcance": "Dependencias de ejecución resueltas en el entorno aislado; avisos publicados por PyPI, sin análisis dinámico del código de terceros.",
+  "paquetes": [
+    {
+      "paquete": "annotated-doc",
+      "version": "0.0.5",
+      "fuente": "https://pypi.org/pypi/annotated-doc/0.0.5/json",
+      "avisos": []
+    },
+    {
+      "paquete": "annotated-types",
+      "version": "0.8.0",
+      "fuente": "https://pypi.org/pypi/annotated-types/0.8.0/json",
+      "avisos": []
+    },
+    {
+      "paquete": "anyio",
+      "version": "4.15.1",
+      "fuente": "https://pypi.org/pypi/anyio/4.15.1/json",
+      "avisos": []
+    },
+    {
+      "paquete": "click",
+      "version": "8.5.0",
+      "fuente": "https://pypi.org/pypi/click/8.5.0/json",
+      "avisos": []
+    },
+    {
+      "paquete": "dnspython",
+      "version": "2.9.1",
+      "fuente": "https://pypi.org/pypi/dnspython/2.9.1/json",
+      "avisos": []
+    },
+    {
+      "paquete": "email-validator",
+      "version": "2.2.0",
+      "fuente": "https://pypi.org/pypi/email-validator/2.2.0/json",
+      "avisos": []
+    },
+    {
+      "paquete": "fastapi",
+      "version": "0.162.0",
+      "fuente": "https://pypi.org/pypi/fastapi/0.162.0/json",
+      "avisos": []
+    },
+    {
+      "paquete": "h11",
+      "version": "0.16.0",
+      "fuente": "https://pypi.org/pypi/h11/0.16.0/json",
+      "avisos": []
+    },
+    {
+      "paquete": "idna",
+      "version": "3.20",
+      "fuente": "https://pypi.org/pypi/idna/3.20/json",
+      "avisos": []
+    },
+    {
+      "paquete": "jinja2",
+      "version": "3.1.6",
+      "fuente": "https://pypi.org/pypi/jinja2/3.1.6/json",
+      "avisos": []
+    },
+    {
+      "paquete": "markupsafe",
+      "version": "3.0.4",
+      "fuente": "https://pypi.org/pypi/markupsafe/3.0.4/json",
+      "avisos": []
+    },
+    {
+      "paquete": "opentelemetry-api",
+      "version": "1.45.2",
+      "fuente": "https://pypi.org/pypi/opentelemetry-api/1.45.2/json",
+      "avisos": []
+    },
+    {
+      "paquete": "pydantic",
+      "version": "2.14.2",
+      "fuente": "https://pypi.org/pypi/pydantic/2.14.2/json",
+      "avisos": []
+    },
+    {
+      "paquete": "pydantic-core",
+      "version": "2.50.2",
+      "fuente": "https://pypi.org/pypi/pydantic-core/2.50.2/json",
+      "avisos": []
+    },
+    {
+      "paquete": "starlette",
+      "version": "1.10.0",
+      "fuente": "https://pypi.org/pypi/starlette/1.10.0/json",
+      "avisos": []
+    },
+    {
+      "paquete": "typing-extensions",
+      "version": "4.16.0",
+      "fuente": "https://pypi.org/pypi/typing-extensions/4.16.0/json",
+      "avisos": []
+    },
+    {
+      "paquete": "typing-inspection",
+      "version": "0.4.4",
+      "fuente": "https://pypi.org/pypi/typing-inspection/0.4.4/json",
+      "avisos": []
+    },
+    {
+      "paquete": "uvicorn",
+      "version": "0.35.0",
+      "fuente": "https://pypi.org/pypi/uvicorn/0.35.0/json",
+      "avisos": []
+    }
+  ],
+  "errores": 0,
+  "avisos": 0
+}
