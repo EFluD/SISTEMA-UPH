@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Iniciar sesión · Sistema de Matrícula</title>
+  <link rel="icon" href="data:," />
+  <link rel="stylesheet" href="/static/estilos.css" />
+</head>
+<body>
+  <div class="login">
+    <section class="login-lado">
+      <div class="marca">
+        <div class="marca-logo">UPH</div>
+        <div class="marca-texto"><strong>Sistema de Matrícula</strong><span>Programación III</span></div>
+      </div>
+      <div>
+        <h1>Gestión académica <span>en un solo lugar</span></h1>
+        <p>Organiza tu comunidad académica y consulta la información de cada estudiante, desde la matrícula hasta su historial.</p>
+        <ul class="login-lista">
+          <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg> Tu comunidad académica, conectada</li>
+          <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg> Matrícula, historial y seguimiento académico</li>
+          <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg> Acceso por roles y sesiones protegidas</li>
+        </ul>
+      </div>
+      <small style="color:#9ea4de; position:relative; z-index:1">Universidad Politécnica de Honduras · Ingeniería en Sistemas Computacionales</small>
+    </section>
+
+    <section class="login-form">
+      <main class="login-caja">
+        <h2>Iniciar sesión</h2>
+        <p class="sub">Ingrese con su usuario del sistema.</p>
+
+        <form id="formulario-login">
+          <div>
+            <label for="nombre_usuario">Usuario</label>
+            <input type="text" id="nombre_usuario" name="nombre_usuario" required autofocus autocomplete="username" />
+          </div>
+          <div>
+            <label for="contrasena">Contraseña</label>
+            <input type="password" id="contrasena" name="contrasena" required autocomplete="current-password" />
+          </div>
+          <p id="mensaje-error" class="mensaje-error" hidden></p>
+          <button type="submit" class="btn btn-primario">Entrar al sistema</button>
+        </form>
+
+        <p class="login-ayuda">Use la cuenta y contraseña creadas al instalar.</p>
+      </main>
+    </section>
+  </div>
+
+  <script src="/static/js/login.js"></script>
+</body>
+</html>
