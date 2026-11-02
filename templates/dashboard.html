@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sistema de Matrícula</title>
+  <link rel="icon" href="data:," />
+  <link rel="stylesheet" href="/static/estilos.css" />
+</head>
+<body data-usuario="{{ nombre_usuario }}" data-rol="{{ rol }}">
+  <div class="app">
+    <!-- Barra lateral: se llena sola con los módulos registrados (nucleo.js) -->
+    <aside class="lateral" id="lateral">
+      <div class="marca">
+        <div class="marca-logo">UPH</div>
+        <div class="marca-texto"><strong>Sistema de Matrícula</strong><span>Programación III</span></div>
+      </div>
+      <nav id="navegacion"></nav>
+      <div class="lateral-pie">CAMPUS ACADÉMICO · EDICIÓN DOCENTE</div>
+    </aside>
+
+    <div class="principal">
+      <header class="barra-superior">
+        <button class="btn-icono btn-menu" id="boton-menu" aria-label="Abrir menú"></button>
+        <div class="migas">
+          <small id="miga-grupo">Principal</small>
+          <strong id="miga-titulo">Inicio</strong>
+        </div>
+        <div class="espaciador"></div>
+        <div class="usuario-chip">
+          <div class="avatar" id="avatar-usuario">{{ nombre_usuario[:2] }}</div>
+          <div><strong>{{ nombre_usuario }}</strong><small>{{ rol }}</small></div>
+        </div>
+        <button class="btn btn-claro btn-chico" id="boton-clave">Mi contraseña</button>
+        <button class="btn btn-claro btn-chico" id="boton-salir"></button>
+      </header>
+
+      <main class="contenido" id="vista"></main>
+    </div>
+  </div>
+
+  <div class="avisos" id="avisos"></div>
+
+  <!-- Los datos del usuario los usa el módulo "Inicio" -->
+
+
+  <!-- 1) El núcleo: funciones compartidas (fetch, tablas, ventanas, router) -->
+  <script src="/static/js/nucleo.js"></script>
+
+  <!-- 2) Un archivo por módulo. El ORDEN de estas líneas es el orden del menú.
+          Para agregar un módulo nuevo: crea su .js y agrega una línea aquí. -->
+  <script src="/static/js/consultas.js"></script>
+  <script src="/static/js/modulo_inicio.js"></script>
+  <script src="/static/js/modulo_estudiantes.js"></script>
+  <script src="/static/js/modulo_docentes.js"></script>
+  <script src="/static/js/modulo_cursos.js"></script>
+  <script src="/static/js/modulo_matriculas.js"></script>
+  <script src="/static/js/modulo_calificaciones.js"></script>
+  <script src="/static/js/modulo_reportes.js"></script>
+  <script src="/static/js/modulo_datos.js"></script>
+  <script src="/static/js/modulo_usuarios.js"></script>
+
+  <!-- 3) Arranca el sistema -->
+
+<script src="/static/js/iniciar.js"></script>
+</body>
+</html>
